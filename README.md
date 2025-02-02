@@ -1,6 +1,6 @@
 # -Extraction-of-Cervical-Spine-Radiographic-Predictions-for-Kyphotic-Deformity-Following-Laminoplasty
 Autonomous Extraction of Cervical Spine Radiographic Predictions for Kyphotic Deformity Following Laminoplasty
-Program written in python by Samuel D. Pettersson, Natalia Anna Koc
+> Program written in python by Samuel D. Pettersson, Natalia Anna Koc
 
 > Specs and Software used for this training
 ```
