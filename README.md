@@ -5,6 +5,30 @@ Autonomous Extraction of Cervical Spine Radiographic Predictions for Kyphotic De
 **Link to the Keras Model used in this project**
 https://drive.google.com/file/d/1bkv26SXE4l4n2KFHinSQy4f9f7w7FcW3/view?usp=sharing
 
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Required Packages
+```bash
+pip install tensorflow notebook numpy pandas matplotlib
+```
+### 4. Download Model
+```bash
+pip install tensorflow notebook numpy pandas matplotlib
+```
+
+https://github.com/JoonLee6075/-Extraction-of-Cervical-Spine-Radiographic-Predictions-for-Kyphotic-Deformity-Following-Laminoplasty.git
 > Specs and Software used for this training
 ```
 Thu Jan 30 10:33:30 2025       
