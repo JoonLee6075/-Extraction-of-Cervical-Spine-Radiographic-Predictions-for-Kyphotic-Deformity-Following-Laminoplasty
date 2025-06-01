@@ -21,11 +21,28 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 ### 3. Install Required Packages
 ```bash
-pip install tensorflow notebook numpy pandas matplotlib
+pip install tensorflow notebook numpy pandas matplotlib SimpleITK keras-preprocessing scikit-learn 
 ```
 ### 4. Download Model
-```bash
-pip install tensorflow notebook numpy pandas matplotlib
+Download the Keras Model from the link above.
+
+### 5. Prepare DataSet
+The model is designed to analyze sagittal X-ray scans where the C7 vertebra up to the external acoustic meatus is clearly visible. To ensure accurate results, it's important that the patient's lead gown is not positioned too high on the shoulders, as this can block the view of the C7 vertebral body.
+
+Make sure to insert your datas inside /workspace/myxraydata/*.nrrd. If not you must edit the ipynb file to relocate the data directory.
+
+### 6. Compile and Test
+Now you need to load your data into preprocessing. You can use the same preprocessing method inside the ipynb file. Once it is done, 
+```python
+from tensorflow.keras.models import load_model
+
+# Load your saved Keras model
+model = load_model("model.weights.h5", compile=False)
+```
+Once Loaded, you may proceed to test out the prediction.
+```python
+prediction = model.predict(image)
+...
 ```
 
 https://github.com/JoonLee6075/-Extraction-of-Cervical-Spine-Radiographic-Predictions-for-Kyphotic-Deformity-Following-Laminoplasty.git
