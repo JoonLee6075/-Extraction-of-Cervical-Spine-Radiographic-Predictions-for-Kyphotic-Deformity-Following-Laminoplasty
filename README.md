@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1bkv26SXE4l4n2KFHinSQy4f9f7w7FcW3/view?usp=shari
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/yourusername/your-repo-name.git](https://github.com/JoonLee6075/-Extraction-of-Cervical-Spine-Radiographic-Predictions-for-Kyphotic-Deformity-Following-Laminoplasty.git
 cd your-repo-name
 ```
 ### 2. Set Up a Virtual Environment (Optional but Recommended)
